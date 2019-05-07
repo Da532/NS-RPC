@@ -2,7 +2,7 @@
     "games" :
         [
             {"name" : "Home", "img" : "switch"},
-            {"name" : "Some Good Game", "img" : "switch"},
+            {"name" : "Playing", "img" : "switch"},
             {"name" : "Splatoon 2", "img" : "splat"},
             {"name" : "Mario Kart 8 Deluxe", "img" : "mk8d"},
             {"name" : "Super Smash Bros. Ultimate", "img" : "ssbu"},
