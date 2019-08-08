@@ -1,12 +1,22 @@
+# Application generated
 node_modules
 NS-RPC-darwin-x64
 NS-RPC-win32-x64
 NS-RPC-source-built-installers
-build.js
-icon.icns
-icon.ico
-install.gif
 NS-RPC.dmg
-.eslintrc.js
-bulma.css
+
+# System generated
 .DS_STORE
+
+# Project meta - they're part of the app and build process!
+#icon.icns
+#icon.ico
+#install.gif 
+#build.js
+# ^^^^^^^ Not sure on this one. What's in it?
+
+# Development meta
+#.eslintrc.js # Let us have your lint settings!
+
+# Dependencies
+#bulma.css # We can redistribute this, since both projects are MIT licensed
