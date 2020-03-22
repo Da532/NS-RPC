@@ -42,6 +42,19 @@
             {"name" : "Bloodstained: Ritual of the Night", "img" : "bs"},
             {"name" : "Dragon Quest Builders 2", "img" : "dqb2"},
             {"name" : "Fire Emblem: Three Houses", "img" : "fe3h"},
-            {"name" : "Astral Chain", "img" : "ac"}
+            {"name" : "Astral Chain", "img" : "ac"},
+            {"name" : "Pokémon Sword", "img" : "pksw"},
+            {"name" : "Pokémon Shield", "img" : "pksh"},
+            {"name" : "Pokémon Shield", "img" : "pksh"},
+            {"name" : "Luigi's Mansion 3", "img" : "lm3"},
+            {"name" : "Ring Fit Adventure", "img" : "rfa"},
+            {"name" : "The Legend of Zelda: Link's Awakening", "img" : "la"},
+            {"name" : "Overwatch", "img" : "owoe"},
+            {"name" : "DOOM", "img" : "doom"},
+            {"name" : "Asphalt 9: Legends", "img" : "a9l"},
+            {"name" : "Tokyo Mirage Sessions #FE Encore", "img" : "tmsfee"},
+            {"name" : "Devil May Cry 3", "img" : "dmc3"},
+            {"name" : "Pokémon Mystery Dungeon: Rescue Team DX", "img" : "pmd"},
+            {"name" : "Animal Crossing: New Horizons", "img" : "acnh"}
         ]
 }
