@@ -18,6 +18,10 @@ export function GetPins() {
   return window['go']['main']['App']['GetPins']();
 }
 
+export function IsMac() {
+  return window['go']['main']['App']['IsMac']();
+}
+
 export function PinGame(arg1) {
   return window['go']['main']['App']['PinGame'](arg1);
 }

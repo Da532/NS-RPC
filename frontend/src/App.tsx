@@ -6,6 +6,7 @@ import {
   Reconnect,
   PinGame,
   GetPins,
+  IsMac,
 } from "../wailsjs/go/main/App";
 import { faToggleOn, faThumbTack } from "@fortawesome/free-solid-svg-icons";
 import Fa, { FaLayers } from "solid-fa";
@@ -16,8 +17,10 @@ const App: Component = () => {
   const [selection, setSelection] = createSignal("Home");
   const [status, setStatus] = createSignal("Online");
   const [connErr, setConnErr] = createSignal(false);
+  const [isMac, setIsMac] = createSignal(false);
 
   GetGamesList().then((result: string) => setGamesList(JSON.parse(result)));
+  IsMac().then((result: boolean) => setIsMac(result));
 
   const connCheck = () => {
     CheckConn().then((result: boolean) => {
@@ -32,8 +35,8 @@ const App: Component = () => {
   });
 
   return (
-    <div class="text-white text-center">
-      <div class="bg-red-600 pt-6 pb-6">
+    <div class="text-white text-center select-none">
+      <div class={`bg-red-600 ${isMac() ? "pt-16" : "pt-6"} pb-6`}>
         <p class=" text-2xl font-semibold">[NS-RPC]</p>
         <FaLayers size="2x">
           <Fa icon={faToggleOn} />

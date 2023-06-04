@@ -9,6 +9,8 @@ export function GetGamesList():Promise<string>;
 
 export function GetPins():Promise<string>;
 
+export function IsMac():Promise<boolean>;
+
 export function PinGame(arg1:string):Promise<void>;
 
 export function Reconnect():Promise<boolean>;

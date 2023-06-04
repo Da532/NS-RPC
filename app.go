@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
+	"runtime"
 	"sort"
 
 	"github.com/hugolgst/rich-go/client"
@@ -139,7 +139,7 @@ func LoadPinJson() Pins {
 	pinsJson, err := os.Open("pinned.json")
 	if err == nil {
 		defer pinsJson.Close()
-		bytes, _ := ioutil.ReadAll(pinsJson)
+		bytes, _ := io.ReadAll(pinsJson)
 		json.Unmarshal(bytes, &pins)
 	}
 	return pins
@@ -159,7 +159,7 @@ func (a *App) PinGame(title string) {
 		pins = append(pins, title)
 	}
 	file, _ := json.Marshal(pins)
-	ioutil.WriteFile("pinned.json", file, 0644)
+	os.WriteFile("pinned.json", file, 0644)
 }
 
 func (a *App) GetPins() string {
@@ -170,4 +170,8 @@ func (a *App) GetPins() string {
 	}
 	data, _ := json.Marshal(pinMenu)
 	return string(data)
+}
+
+func (a *App) IsMac() bool {
+	return runtime.GOOS != "windows"
 }
