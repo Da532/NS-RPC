@@ -1,5 +1,18 @@
 [
     {"title": "Home", "img": "home"},
+    {"title": "Splatoon 2", "img": "spl2"},
     {"title": "Splatoon 3", "img": "spl3"},
-    {"title": "The Legend of Zelda: Tears of the Kingdom", "img": "totk"}
+    {"title": "The Legend of Zelda: Tears of the Kingdom", "img": "totk"},
+    {"title": "Super Smash Bros. Ultimate", "img": "ssbu"},
+    {"title": "Tetris 99", "img": "t99"},
+    {"title": "Super Mario Odyssey", "img": "smo"},
+    {"title": "Super Mario Party", "img": "smp"},
+    {"title": "Mario Tennis Aces", "img": "mta"},
+    {"title": "New Super Mario Bros. U Deluxe", "img": "nsmbud"},
+    {"title": "Yoshi's Crafted World", "img": "ycw"},
+    {"title": "Kirby Star Allies", "img": "ksa"},
+    {"title": "Arms", "img": "arms"},
+    {"title": "Rocket League", "img": "rl"},
+    {"title": "Fortnite", "img": "fn"},
+    {"title": "Mario Kart 8 Deluxe", "img": "mk8d"}
 ]
