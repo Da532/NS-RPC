@@ -1,0 +1,13 @@
+{
+  "name": "NS-RPC",
+  "outputfilename": "NS-RPC",
+  "frontend:install": "yarn install",
+  "frontend:build": "yarn build",
+  "frontend:dev:watcher": "yarn dev",
+  "frontend:dev:serverUrl": "auto",
+  "assetdir": "./frontend/dist",
+  "author": {
+    "name": "AlmightyCX",
+    "email": "admin@da532.com"
+  }
+}
