@@ -137,14 +137,14 @@ func (a *App) SetGame(title string, status string) {
 
 func LoadPinJson() Pins {
 	var pins Pins
-	configDir, err := os.UserConfigDir()
+	configDir, err := os.UserHomeDir()
 	if err != nil {
 		panic(err)
 	}
 	configDir = filepath.Join(configDir, "NS-RPC")
 	_, err = os.Stat(configDir)
 	if err != nil {
-		err = os.Mkdir(configDir, 0644)
+		err = os.Mkdir(configDir, os.ModePerm)
 		if err != nil {
 			panic(err)
 		}
@@ -160,7 +160,7 @@ func LoadPinJson() Pins {
 
 func (a *App) PinGame(title string) {
 	pins := LoadPinJson()
-	configDir, err := os.UserConfigDir()
+	configDir, err := os.UserHomeDir()
 	if err != nil {
 		panic(err)
 	}
@@ -176,7 +176,10 @@ func (a *App) PinGame(title string) {
 		pins = append(pins, title)
 	}
 	file, _ := json.Marshal(pins)
-	os.WriteFile(filepath.Join(configDir, "NS-RPC", "pinned.json"), file, 0644)
+	err = os.WriteFile(filepath.Join(configDir, "NS-RPC", "pinned.json"), file, os.ModePerm)
+	if err != nil {
+		panic(err)
+	}
 }
 
 func (a *App) GetPins() string {
