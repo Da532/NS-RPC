@@ -75,5 +75,8 @@
     {"title": "Persona 4 Golden", "img": "p4g"},
     {"title": "Persona 5 Royal", "img": "p5r"},
     {"title": "Persona 5 Strikers", "img": "p5s"},
+    {"title": "Monster Hunter Rise", "img": "mhr"},
+    {"title": "Monster Hunter Stories 2: Wings of Ruin", "img": "mhs2"},
+    {"title": "Monster Hunter Generations Ultimate", "img": "mhgu"},
     {"title": "Mario Kart 8 Deluxe", "img": "mk8d"}
 ]
