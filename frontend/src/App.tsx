@@ -12,14 +12,14 @@ import { faToggleOn, faThumbTack } from "@fortawesome/free-solid-svg-icons";
 import Fa, { FaLayers } from "solid-fa";
 
 const App: Component = () => {
-  const [gamesList, setGamesList] = createSignal(null);
+  const [gamesList, setGamesList] = createSignal([{"title": "Home", "img": "home"}]);
   const [pinsShow, setPinsShow] = createSignal(false);
   const [selection, setSelection] = createSignal("Home");
   const [status, setStatus] = createSignal("Online");
   const [connErr, setConnErr] = createSignal(false);
   const [isMac, setIsMac] = createSignal(false);
 
-  GetGamesList().then((result: string) => setGamesList(JSON.parse(result)));
+  GetGamesList().then((result: string) => setGamesList(gamesList().concat(JSON.parse(result))));
   IsMac().then((result: boolean) => setIsMac(result));
 
   const connCheck = () => {

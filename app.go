@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"path/filepath"
 	"runtime"
 	"sort"
 
@@ -35,7 +36,7 @@ var gamesList Games
 var connErr bool = false
 
 const clientID string = "1114647533562646700"
-const gamesURL string = "https://raw.githubusercontent.com/Da532/NS-RPC/next/games.json"
+const gamesURL string = "https://raw.githubusercontent.com/Da532/NS-RPC/master/games.json"
 
 func NewApp() *App {
 	return &App{}
@@ -136,7 +137,19 @@ func (a *App) SetGame(title string, status string) {
 
 func LoadPinJson() Pins {
 	var pins Pins
-	pinsJson, err := os.Open("pinned.json")
+	configDir, err := os.UserConfigDir()
+	if err != nil {
+		panic(err)
+	}
+	configDir = filepath.Join(configDir, "NS-RPC")
+	_, err = os.Stat(configDir)
+	if err != nil {
+		err = os.Mkdir(configDir, 0644)
+		if err != nil {
+			panic(err)
+		}
+	}
+	pinsJson, err := os.Open(filepath.Join(configDir, "pinned.json"))
 	if err == nil {
 		defer pinsJson.Close()
 		bytes, _ := io.ReadAll(pinsJson)
@@ -147,6 +160,10 @@ func LoadPinJson() Pins {
 
 func (a *App) PinGame(title string) {
 	pins := LoadPinJson()
+	configDir, err := os.UserConfigDir()
+	if err != nil {
+		panic(err)
+	}
 	removedPin := false
 	for i, pin := range pins {
 		if pin == title {
@@ -159,7 +176,7 @@ func (a *App) PinGame(title string) {
 		pins = append(pins, title)
 	}
 	file, _ := json.Marshal(pins)
-	os.WriteFile("pinned.json", file, 0644)
+	os.WriteFile(filepath.Join(configDir, "NS-RPC", "pinned.json"), file, 0644)
 }
 
 func (a *App) GetPins() string {
@@ -167,6 +184,9 @@ func (a *App) GetPins() string {
 	var pinMenu Games
 	for _, pin := range pins {
 		pinMenu = append(pinMenu, Game{Title: pin, Img: ""})
+	}
+	if len(pinMenu) == 0 {
+		pinMenu = append(pinMenu, Game{Title: "No Pins!", Img: ""})
 	}
 	data, _ := json.Marshal(pinMenu)
 	return string(data)
