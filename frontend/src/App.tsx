@@ -53,9 +53,9 @@ const App: Component = () => {
           class="bg-slate-800 border border-white rounded-lg focus:border-red-600 w-80 h-10"
           onChange={(e) => setSelection(e.currentTarget.value)}
           onMouseOver={() => {
-            if (gamesList().length < 2) {
+            if (gamesList().length <= 2) {
               GetGamesList().then((result: string) =>
-                setGamesList(JSON.parse(result))
+                setGamesList(gamesList().concat(JSON.parse(result)))
               );
             }
           }}

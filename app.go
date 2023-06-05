@@ -110,6 +110,7 @@ func (a *App) GetGamesData() error {
 func (a *App) GetGamesList() string {
 	data, err := json.Marshal(gamesList)
 	if err != nil {
+		a.GetGamesData()
 		return err.Error()
 	}
 	return string(data)
