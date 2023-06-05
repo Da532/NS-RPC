@@ -12,7 +12,9 @@ import { faToggleOn, faThumbTack } from "@fortawesome/free-solid-svg-icons";
 import Fa, { FaLayers } from "solid-fa";
 
 const App: Component = () => {
-  const [gamesList, setGamesList] = createSignal([{"title": "Home", "img": "home"}]);
+  const [gamesList, setGamesList] = createSignal([
+    { title: "Home", img: "home" },
+  ]);
   const [pinsShow, setPinsShow] = createSignal(false);
   const [selection, setSelection] = createSignal("Home");
   const [status, setStatus] = createSignal("Online");
@@ -50,8 +52,8 @@ const App: Component = () => {
           id="games"
           class="bg-slate-800 border border-white rounded-lg focus:border-red-600 w-80 h-10"
           onChange={(e) => setSelection(e.currentTarget.value)}
-          onClick={() => {
-            if (!gamesList()) {
+          onMouseOver={() => {
+            if (gamesList().length < 2) {
               GetGamesList().then((result: string) =>
                 setGamesList(JSON.parse(result))
               );
