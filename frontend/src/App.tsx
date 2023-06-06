@@ -21,7 +21,6 @@ const App: Component = () => {
   const [connErr, setConnErr] = createSignal(false);
   const [isMac, setIsMac] = createSignal(false);
 
-  GetGamesList().then((result: string) => setGamesList(gamesList().concat(JSON.parse(result))));
   IsMac().then((result: boolean) => setIsMac(result));
 
   const connCheck = () => {
