@@ -78,5 +78,8 @@
     {"title": "Monster Hunter Rise", "img": "mhr"},
     {"title": "Monster Hunter Stories 2: Wings of Ruin", "img": "mhs2"},
     {"title": "Monster Hunter Generations Ultimate", "img": "mhgu"},
+    {"title": "Blasphemous", "img": "blasphemous"},
+    {"title": "Taiko no Tatsujin: Drum 'n' Fun!", "img": "taikodrum"},
+    {"title": "Taiko no Tatsujin: Rhythm Festival", "img": "taikorhythm"},
     {"title": "Mario Kart 8 Deluxe", "img": "mk8d"}
 ]
