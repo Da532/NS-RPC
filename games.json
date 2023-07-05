@@ -1,6 +1,7 @@
 [
     {"title": "Splatoon 2", "img": "spl2"},
     {"title": "Splatoon 3", "img": "spl3"},
+    {"title": "Home", "img": "home"},
     {"title": "The Legend of Zelda: Tears of the Kingdom", "img": "totk"},
     {"title": "Super Smash Bros. Ultimate", "img": "ssbu"},
     {"title": "Tetris 99", "img": "t99"},
