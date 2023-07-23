@@ -82,5 +82,9 @@
     {"title": "Blasphemous", "img": "blasphemous"},
     {"title": "Taiko no Tatsujin: Drum 'n' Fun!", "img": "taikodrum"},
     {"title": "Taiko no Tatsujin: Rhythm Festival", "img": "taikorhythm"},
+    {"title": "Pikmin 1", "img": "pik1"},
+    {"title": "Pikmin 2", "img": "pik2"},
+    {"title": "Pikmin 3 Deluxe", "img": "pik3"},
+    {"title": "Pikmin 4", "img": "pik4"},
     {"title": "Mario Kart 8 Deluxe", "img": "mk8d"}
 ]
