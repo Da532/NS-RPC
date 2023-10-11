@@ -6,7 +6,7 @@ require (
 	github.com/hugolgst/rich-go v0.0.0-20210925091458-d59fb695d9c0
 	github.com/wailsapp/wails/v2 v2.5.1
 	golang.org/x/exp v0.0.0-20220303212507-bbda1eaf7a17
-	golang.org/x/text v0.7.0
+	golang.org/x/text v0.13.0
 )
 
 require (
@@ -28,9 +28,9 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
 	github.com/wailsapp/mimetype v1.4.1 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 )
 
