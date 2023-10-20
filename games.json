@@ -1,104 +1,442 @@
 [
-    {"title": "Splatoon 2", "img": "spl2"},
-    {"title": "Splatoon 3", "img": "spl3"},
-    {"title": "Home", "img": "home"},
-    {"title": "The Legend of Zelda: Tears of the Kingdom", "img": "totk"},
-    {"title": "Super Smash Bros. Ultimate", "img": "ssbu"},
-    {"title": "Tetris 99", "img": "t99"},
-    {"title": "Super Mario Odyssey", "img": "smo"},
-    {"title": "Super Mario Party", "img": "smp"},
-    {"title": "Mario Tennis Aces", "img": "mta"},
-    {"title": "New Super Mario Bros. U Deluxe", "img": "nsmbud"},
-    {"title": "Yoshi's Crafted World", "img": "ycw"},
-    {"title": "Kirby Star Allies", "img": "ksa"},
-    {"title": "Arms", "img": "arms"},
-    {"title": "Rocket League", "img": "rl"},
-    {"title": "Fortnite", "img": "fn"},
-    {"title": "Warframe", "img": "warframe"},
-    {"title": "Paladins", "img": "paladins"},
-    {"title": "Minecraft", "img": "mc"},
-    {"title": "Nintendo Entertainment System", "img": "nes"},
-    {"title": "Super Nintendo Entertainment System", "img": "snes"},
-    {"title": "Game Boy Advance", "img": "gba"},
-    {"title": "Game Boy", "img": "gb"},
-    {"title": "Nintnedo 64", "img": "n64"},
-    {"title": "Xenoblade Chronicles 2", "img": "xc2"},
-    {"title": "Xenoblade Chronicles 3", "img": "xc3"},
-    {"title": "Stardew Valley", "img": "sdv"},
-    {"title": "Snipperclips", "img": "sc"},
-    {"title": "BOXBOY! + BOXGIRL!", "img": "bbbg"},
-    {"title": "The Elder Scrolls V: Skyrim", "img": "skyrim"},
-    {"title": "Sonic Mania", "img": "mania"},
-    {"title": "Overcooked! All You Can Eat", "img": "oc"},
-    {"title": "Overcooked! 2", "img": "oc2"},
-    {"title": "Hyrule Warriors: Definitive Edition", "img": "hw"},
-    {"title": "Hyrule Warriors: Age of Calamity", "img": "hwaoc"},
-    {"title": "Rayman Legends: Definitive Edition", "img": "rml"},
-    {"title": "OCTOPATH TRAVELER", "img": "opt"},
-    {"title": "OCTOPATH TRAVELER II", "img": "opt2"},
-    {"title": "TRIANGLE STRATEGY", "img": "ts"},
-    {"title": "Super Mario Maker 2", "img": "smm2"},
-    {"title": "Cadence of Hyrule", "img": "coh"},
-    {"title": "Crash Team Racing Nitro-Fueled", "img": "ctr"},
-    {"title": "Collection of Mana", "img": "com"},
-    {"title": "Trials of Mana", "img": "tom"},
-    {"title": "Cuphead", "img": "ch"},
-    {"title": "Mortal Kombat 11", "img": "mk11u"},
-    {"title": "Bloodstained: Ritual of the Night", "img": "bsrotn"},
-    {"title": "Fire Emblem: Three Houses", "img": "feth"},
-    {"title": "Fire Emblem Engage", "img": "fee"},
-    {"title": "Fire Emblem Warriors: Three Hopes", "img": "fewth"},
-    {"title": "Astral Chain", "img": "ac"},
-    {"title": "Pokémon Sword", "img": "psw"},
-    {"title": "Pokémon Shield", "img": "psh"},
-    {"title": "Pokémon Legends: Arceus", "img": "pla"},
-    {"title": "Pokémon Brilliant Diamond", "img": "pbd"},
-    {"title": "Pokémon Shining Pearl", "img": "psp"},
-    {"title": "Pokémon Scarlet", "img": "psv"},
-    {"title": "Pokémon Violet", "img": "psv"},
-    {"title": "Luigi's Mansion 3", "img": "lm3"},
-    {"title": "Ring Fit Adventure", "img": "rfa"},
-    {"title": "The Legend of Zelda: Link's Awakening", "img": "tolzla"},
-    {"title": "The Legend of Zelda: Breath of the Wild", "img": "botw"},
-    {"title": "Overwatch 2", "img": "ow2"},
-    {"title": "DOOM", "img": "doom"},
-    {"title": "DOOM Eternal", "img": "doome"},
-    {"title": "Tokyo Mirage Sessions #FE Encore", "img": "tmsfe"},
-    {"title": "Animal Crossing: New Horizons", "img": "acnh"},
-    {"title": "Mario Party Superstars", "img": "mpss"},
-    {"title": "Super Mario 3D World + Bowser's Fury", "img": "sm3dw"},
-    {"title": "Nintendo Switch Sports", "img": "nss"},
-    {"title": "Kirby and the Forgotten Land", "img": "katfl"},
-    {"title": "Metroid Dread", "img": "md"},
-    {"title": "Among Us", "img": "amogus"},
-    {"title": "Persona 3 Portable", "img": "p3p"},
-    {"title": "Persona 4 Golden", "img": "p4g"},
-    {"title": "Persona 5 Royal", "img": "p5r"},
-    {"title": "Persona 5 Strikers", "img": "p5s"},
-    {"title": "Monster Hunter Rise", "img": "mhr"},
-    {"title": "Monster Hunter Stories 2: Wings of Ruin", "img": "mhs2"},
-    {"title": "Monster Hunter Generations Ultimate", "img": "mhgu"},
-    {"title": "Blasphemous", "img": "blasphemous"},
-    {"title": "Taiko no Tatsujin: Drum 'n' Fun!", "img": "taikodrum"},
-    {"title": "Taiko no Tatsujin: Rhythm Festival", "img": "taikorhythm"},
-    {"title": "Pikmin 1", "img": "pik1"},
-    {"title": "Pikmin 2", "img": "pik2"},
-    {"title": "Pikmin 3 Deluxe", "img": "pik3"},
-    {"title": "Pikmin 4", "img": "pik4"},
-    {"title": "Big Brain Academy: Brain vs Brain", "img": "bbabvb"},
-    {"title": "Fae Farm", "img": "faef"},
-    {"title": "F-ZERO 99", "img": "fz99"},
-    {"title": "Untitled Goose Game", "img": "ugg"},
-    {"title": "BioShock Remastered", "img": "bsr"},
-    {"title": "BioShock Remastered 2", "img": "bsr2"},
-    {"title": "BioShock Infinite", "img": "bsi"},
-    {"title": "LEGO Jurassic World", "img": "ljw"},
-    {"title": "Unravel Two", "img": "ut"},
-    {"title": "Trombone Champ", "img": "trombone"},
-    {"title": "MONOPOLY Madness", "img": "monopolym"},
-    {"title": "MONOPOLY for Nintendo Switch", "img": "monopoly"},
-    {"title": "LEGO CITY Undercover", "img": "lcu"},
-    {"title": "LEGO Marvel Super Heros", "img": "lmsh"},
-    {"title": "LEGO Marvel Super Heros 2", "img": "lmsh2"},
-    {"title": "Mario Kart 8 Deluxe", "img": "mk8d"}
+  {
+    "title": "Splatoon 2",
+    "img": "spl2"
+  },
+  {
+    "title": "Splatoon 3",
+    "img": "spl3"
+  },
+  {
+    "title": "Home",
+    "img": "home"
+  },
+  {
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "img": "totk"
+  },
+  {
+    "title": "Super Smash Bros. Ultimate",
+    "img": "ssbu"
+  },
+  {
+    "title": "Tetris 99",
+    "img": "t99"
+  },
+  {
+    "title": "Super Mario Odyssey",
+    "img": "smo"
+  },
+  {
+    "title": "Super Mario Party",
+    "img": "smp"
+  },
+  {
+    "title": "Mario Tennis Aces",
+    "img": "mta"
+  },
+  {
+    "title": "New Super Mario Bros. U Deluxe",
+    "img": "nsmbud"
+  },
+  {
+    "title": "Yoshi's Crafted World",
+    "img": "ycw"
+  },
+  {
+    "title": "Kirby Star Allies",
+    "img": "ksa"
+  },
+  {
+    "title": "Arms",
+    "img": "arms"
+  },
+  {
+    "title": "Rocket League",
+    "img": "rl"
+  },
+  {
+    "title": "Fortnite",
+    "img": "fn"
+  },
+  {
+    "title": "Warframe",
+    "img": "warframe"
+  },
+  {
+    "title": "Paladins",
+    "img": "paladins"
+  },
+  {
+    "title": "Minecraft",
+    "img": "mc"
+  },
+  {
+    "title": "Nintendo Entertainment System",
+    "img": "nes"
+  },
+  {
+    "title": "Super Nintendo Entertainment System",
+    "img": "snes"
+  },
+  {
+    "title": "Game Boy Advance",
+    "img": "gba"
+  },
+  {
+    "title": "Game Boy",
+    "img": "gb"
+  },
+  {
+    "title": "Nintnedo 64",
+    "img": "n64"
+  },
+  {
+    "title": "Xenoblade Chronicles 2",
+    "img": "xc2"
+  },
+  {
+    "title": "Xenoblade Chronicles 3",
+    "img": "xc3"
+  },
+  {
+    "title": "Stardew Valley",
+    "img": "sdv"
+  },
+  {
+    "title": "Snipperclips",
+    "img": "sc"
+  },
+  {
+    "title": "BOXBOY! + BOXGIRL!",
+    "img": "bbbg"
+  },
+  {
+    "title": "The Elder Scrolls V: Skyrim",
+    "img": "skyrim"
+  },
+  {
+    "title": "Sonic Mania",
+    "img": "mania"
+  },
+  {
+    "title": "Overcooked! All You Can Eat",
+    "img": "oc"
+  },
+  {
+    "title": "Overcooked! 2",
+    "img": "oc2"
+  },
+  {
+    "title": "Hyrule Warriors: Definitive Edition",
+    "img": "hw"
+  },
+  {
+    "title": "Hyrule Warriors: Age of Calamity",
+    "img": "hwaoc"
+  },
+  {
+    "title": "Rayman Legends: Definitive Edition",
+    "img": "rml"
+  },
+  {
+    "title": "OCTOPATH TRAVELER",
+    "img": "opt"
+  },
+  {
+    "title": "OCTOPATH TRAVELER II",
+    "img": "opt2"
+  },
+  {
+    "title": "TRIANGLE STRATEGY",
+    "img": "ts"
+  },
+  {
+    "title": "Super Mario Maker 2",
+    "img": "smm2"
+  },
+  {
+    "title": "Cadence of Hyrule",
+    "img": "coh"
+  },
+  {
+    "title": "Crash Team Racing Nitro-Fueled",
+    "img": "ctr"
+  },
+  {
+    "title": "Collection of Mana",
+    "img": "com"
+  },
+  {
+    "title": "Trials of Mana",
+    "img": "tom"
+  },
+  {
+    "title": "Cuphead",
+    "img": "ch"
+  },
+  {
+    "title": "Mortal Kombat 11",
+    "img": "mk11u"
+  },
+  {
+    "title": "Bloodstained: Ritual of the Night",
+    "img": "bsrotn"
+  },
+  {
+    "title": "Fire Emblem: Three Houses",
+    "img": "feth"
+  },
+  {
+    "title": "Fire Emblem Engage",
+    "img": "fee"
+  },
+  {
+    "title": "Fire Emblem Warriors: Three Hopes",
+    "img": "fewth"
+  },
+  {
+    "title": "Astral Chain",
+    "img": "ac"
+  },
+  {
+    "title": "Pokémon Sword",
+    "img": "psw"
+  },
+  {
+    "title": "Pokémon Shield",
+    "img": "psh"
+  },
+  {
+    "title": "Pokémon Legends: Arceus",
+    "img": "pla"
+  },
+  {
+    "title": "Pokémon Brilliant Diamond",
+    "img": "pbd"
+  },
+  {
+    "title": "Pokémon Shining Pearl",
+    "img": "psp"
+  },
+  {
+    "title": "Pokémon Scarlet",
+    "img": "psv"
+  },
+  {
+    "title": "Pokémon Violet",
+    "img": "psv"
+  },
+  {
+    "title": "Luigi's Mansion 3",
+    "img": "lm3"
+  },
+  {
+    "title": "Ring Fit Adventure",
+    "img": "rfa"
+  },
+  {
+    "title": "The Legend of Zelda: Link's Awakening",
+    "img": "tolzla"
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "img": "botw"
+  },
+  {
+    "title": "Overwatch 2",
+    "img": "ow2"
+  },
+  {
+    "title": "DOOM",
+    "img": "doom"
+  },
+  {
+    "title": "DOOM Eternal",
+    "img": "doome"
+  },
+  {
+    "title": "Tokyo Mirage Sessions #FE Encore",
+    "img": "tmsfe"
+  },
+  {
+    "title": "Animal Crossing: New Horizons",
+    "img": "acnh"
+  },
+  {
+    "title": "Mario Party Superstars",
+    "img": "mpss"
+  },
+  {
+    "title": "Super Mario 3D World + Bowser's Fury",
+    "img": "sm3dw"
+  },
+  {
+    "title": "Nintendo Switch Sports",
+    "img": "nss"
+  },
+  {
+    "title": "Kirby and the Forgotten Land",
+    "img": "katfl"
+  },
+  {
+    "title": "Metroid Dread",
+    "img": "md"
+  },
+  {
+    "title": "Among Us",
+    "img": "amogus"
+  },
+  {
+    "title": "Persona 3 Portable",
+    "img": "p3p"
+  },
+  {
+    "title": "Persona 4 Golden",
+    "img": "p4g"
+  },
+  {
+    "title": "Persona 5 Royal",
+    "img": "p5r"
+  },
+  {
+    "title": "Persona 5 Strikers",
+    "img": "p5s"
+  },
+  {
+    "title": "Monster Hunter Rise",
+    "img": "mhr"
+  },
+  {
+    "title": "Monster Hunter Stories 2: Wings of Ruin",
+    "img": "mhs2"
+  },
+  {
+    "title": "Monster Hunter Generations Ultimate",
+    "img": "mhgu"
+  },
+  {
+    "title": "Blasphemous",
+    "img": "blasphemous"
+  },
+  {
+    "title": "Taiko no Tatsujin: Drum 'n' Fun!",
+    "img": "taikodrum"
+  },
+  {
+    "title": "Taiko no Tatsujin: Rhythm Festival",
+    "img": "taikorhythm"
+  },
+  {
+    "title": "Pikmin 1",
+    "img": "pik1"
+  },
+  {
+    "title": "Pikmin 2",
+    "img": "pik2"
+  },
+  {
+    "title": "Pikmin 3 Deluxe",
+    "img": "pik3"
+  },
+  {
+    "title": "Pikmin 4",
+    "img": "pik4"
+  },
+  {
+    "title": "Big Brain Academy: Brain vs Brain",
+    "img": "bbabvb"
+  },
+  {
+    "title": "Fae Farm",
+    "img": "faef"
+  },
+  {
+    "title": "F-ZERO 99",
+    "img": "fz99"
+  },
+  {
+    "title": "Untitled Goose Game",
+    "img": "ugg"
+  },
+  {
+    "title": "BioShock Remastered",
+    "img": "bsr"
+  },
+  {
+    "title": "BioShock Remastered 2",
+    "img": "bsr2"
+  },
+  {
+    "title": "BioShock Infinite",
+    "img": "bsi"
+  },
+  {
+    "title": "LEGO Jurassic World",
+    "img": "ljw"
+  },
+  {
+    "title": "Unravel Two",
+    "img": "ut"
+  },
+  {
+    "title": "Trombone Champ",
+    "img": "trombone"
+  },
+  {
+    "title": "MONOPOLY Madness",
+    "img": "monopolym"
+  },
+  {
+    "title": "MONOPOLY for Nintendo Switch",
+    "img": "monopoly"
+  },
+  {
+    "title": "LEGO CITY Undercover",
+    "img": "lcu"
+  },
+  {
+    "title": "LEGO Marvel Super Heros",
+    "img": "lmsh"
+  },
+  {
+    "title": "LEGO Marvel Super Heros 2",
+    "img": "lmsh2"
+  },
+  {
+    "title": "Super Mario Bros. Wonder",
+    "img": "smbw"
+  },
+  {
+    "title": "Hades",
+    "img": "hades"
+  },
+  {
+    "title": "EA SPORTS FC 24",
+    "img": "fc24"
+  },
+  {
+    "title": "No Man's Sky",
+    "img": "nms"
+  },
+  {
+    "title": "Detective Pikachu Returns",
+    "img": "dpr"
+  },
+  {
+    "title": "Subnautica",
+    "img": "subnautica"
+  },
+  {
+    "title": "Unpacking",
+    "img": "unpacking"
+  },
+  {
+    "title": "Disney Dreamlight Valley",
+    "img": "ddv"
+  },
+  {
+    "title": "Mario Kart 8 Deluxe",
+    "img": "mk8d"
+  }
 ]
